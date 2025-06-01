@@ -1,0 +1,534 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+
+    <title>Arecofix - Soluciones Informaticas</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#131620] dark justify-between group/design-root overflow-x-hidden"
+      style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'
+    >
+      <div>
+        <div class="flex items-center bg-[#131620] p-4 pb-2 justify-between">
+          <div class="text-white flex size-12 shrink-0 items-center" data-icon="List" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"
+              ></path>
+            </svg>
+          </div>
+          <img src="assets/logo (1).png" alt="" style="width: 10em; height: 3em; vertical-align: middle;">
+          <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">Servicio Tecnico Multimarca</h2>
+          <div class="flex w-12 items-center justify-end">
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 bg-transparent text-white gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0"
+            >
+              <div class="text-white" data-icon="ShoppingCart" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M222.14,58.87A8,8,0,0,0,216,56H54.68L49.79,29.14A16,16,0,0,0,34.05,16H16a8,8,0,0,0,0,16h18L59.56,172.29a24,24,0,0,0,5.33,11.27,28,28,0,1,0,44.4,8.44h45.42A27.75,27.75,0,0,0,152,204a28,28,0,1,0,28-28H83.17a8,8,0,0,1-7.87-6.57L72.13,152h116a24,24,0,0,0,23.61-19.71l12.16-66.86A8,8,0,0,0,222.14,58.87ZM96,204a12,12,0,1,1-12-12A12,12,0,0,1,96,204Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,192,204Zm4-74.57A8,8,0,0,1,188.1,136H69.22L57.59,72H206.41Z"
+                  ></path>
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="px-4 py-3">
+          <label class="flex flex-col min-w-40 h-12 w-full">
+            <div class="flex w-full flex-1 items-stretch rounded-xl h-full">
+              <div
+                class="text-[#9aa3c1] flex border-none bg-[#292f42] items-center justify-center pl-4 rounded-l-xl border-r-0"
+                data-icon="MagnifyingGlass"
+                data-size="24px"
+                data-weight="regular"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+                </svg>
+              </div>
+              <input
+                placeholder="Buscar Productos"
+                class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-white focus:outline-0 focus:ring-0 border-none bg-[#292f42] focus:border-none h-full placeholder:text-[#9aa3c1] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                value=""
+              />
+            </div>
+          </label>
+        </div>
+        <div class="@container">
+          <div class="@[480px]:p-4">
+            <div
+              class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4"
+              style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCpGhRwj1sF4eJo7v0lgw6vJRdDhcUHMs2jOejOBzPhEdaP4Rh91QPr9ciEEpn5V9ib39k9owoMxqoHZ02Ry9VhZ6pPoYs2q5h4Rxm2aljektPkmfa53cdvZ-BE18xfwOyPe4lpT90t0ifIYtKhxOQx8m6zjun1gzRexAxr0ldGfr_E3h04bL2JCh5GW3BTEa3cw-1WtT-_RjqaI0dASBWHvId2V0CW0EeVaH41eP6RcGlf45hcfCmR5P0HpHd4f7MBNXo189-L0Do");'
+            >
+              <div class="flex flex-col gap-2 text-center">
+                <h1
+                  class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+                >
+                  Descubre lo ultimo en tecnologia movil. 
+                </h1>
+                <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                  Explora nuestra coleccion de Telefonos Celulares, accesorios, Repuestos y mas!
+                </h2>
+              </div>
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#7b92df] text-[#131620] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+              >
+                <span class="truncate">Ir a la Tienda</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Productos Populares</h3>
+        <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+          <div class="flex items-stretch p-4 gap-3">
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-xl bg-[#1c2131] shadow-[0_0_4px_rgba(0,0,0,0.1)] min-w-60">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBI0XcL3FQ4sagjMwYQRo0qcQDfjHEcX32BqW4Ilfwd7vwfN2Nd7lVzSkNHCenE44ONiyYbAeMhFdbqGrpWOUwopUzP2bwLiYXu5rzrp4CQa0fbRyA99bpB5ATUe5xVqktDoozMwqdNI8N3LBoY0ojEEFqTF65gKj3jbaq2ei8FK3ahqledQdlboYZ1QsW5_pi86TZsbjRx6EmmWH8NBvqhoJeFzinbjFmbvhj8bPjOpX6eWXxWUfRSfi317y832lZf-mLKEoSev40");'
+              ></div>
+              <div class="flex flex-col flex-1 justify-between p-4 pt-0 gap-4">
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Galaxy S23</p>
+                  <p class="text-[#97a2c3] text-sm font-normal leading-normal">Lo ultimo de Samsung | $799 | Celulares</p>
+                </div>
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#272e44] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">Agregar al Carrito</span>
+                </button>
+              </div>
+            </div>
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-xl bg-[#1c2131] shadow-[0_0_4px_rgba(0,0,0,0.1)] min-w-60">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCX-qbE19QbnTbKdgAqlC8Vu5ZlvNUj4d-N6A5xMd5sqoY3BlLoz4NN23baJg1qKeZVT-VYXjRmqQbPPHgE8FFKmK76_DY7fnkm5lPpvfqEugezH61I7-OOlCohLBX7Wiqdd3jPmJWs_h--pVSLdOiCF0-jyneNZF0iAbvQ8j0evaGB1J3p7A3oNcw00VPbnNYNFUi61sArUGV4zZ7hofALhcYnKcr2bJsXLgDNet3WXZoei3oTS0xNEJGM6aoKuHkFZMNyKUWriYk");'
+              ></div>
+              <div class="flex flex-col flex-1 justify-between p-4 pt-0 gap-4">
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">iPhone 14 Pro</p>
+                  <p class="text-[#97a2c3] text-sm font-normal leading-normal">Apple Nuevo en Caja | $999 | Celulares</p>
+                </div>
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#272e44] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">Agregar al Carrito</span>
+                </button>
+              </div>
+            </div>
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-xl bg-[#1c2131] shadow-[0_0_4px_rgba(0,0,0,0.1)] min-w-60">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDRGyrHBnEFA_zv4do4TC4WW2p0uvOffKJxzsXE9V3iE3oY-7-MaT7_O2wYMq_Ba89-4iEQyZFjfjFaQbq2SY49J1YTZDiPqibq9qmFpgLEgjZhYRtGg0OhZ999yYZKVFSiU5qdUHcOGVcGIHRCsJmMwgn9dM14IuVrVGZa5c3zUSJuCLy-NlIUIfD-cIgAxvmwMi3mwLo4zotNUM3Sclnx7aSrI_wvxWHKQd4rQNh_CLDk7cGP_D_E80tSUj_1SHypxknlz4Fhs7c");'
+              ></div>
+              <div class="flex flex-col flex-1 justify-between p-4 pt-0 gap-4">
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Pixel 7</p>
+                  <p class="text-[#97a2c3] text-sm font-normal leading-normal">Celular de Google con la mejor camara | $599 | Celulares</p>
+                </div>
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#272e44] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">Agregar al Carrito</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex w-full flex-row items-center justify-center gap-3 py-5">
+          <div class="h-2 w-2 rounded-full bg-[#7b92df]"></div>
+          <div class="h-2 w-2 rounded-full bg-[#3a435f]"></div>
+          <div class="h-2 w-2 rounded-full bg-[#3a435f]"></div>
+        </div>
+        <div class="flex w-full grow bg-[#131620] @container p-4">
+          <div class="w-full gap-1 overflow-hidden bg-[#131620] @[480px]:gap-2 aspect-[3/2] rounded-xl flex">
+            <div
+              class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none flex-1"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDeEoa9IY5caTFGoS8tbKIrcTlalP_BQZN5EcZfwwHpvG1KQ_xt4xbSecMBtkDqmIZKQLkc5cr-dAaMF7H9w8r740_11Mf7tnyB8yHrIHM9O-pjGnW9X2FhcR7TPPnLtquhASF7AZfqO7-9Y65a5NiqZl2T-JPPHe5y9dj48KqjEXXFlb_psbeOOA0FpsgkUXGV-mGAQfljmG2FVvE-qGXVlJeRcaEVMnIAoBu--TYWPctqJe3ndzjubQfHqHjE9HSPZQxkfit0ozE");'
+            ></div>
+          </div>
+        </div>
+        <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Agenda una cita para reparar tu Dispositivo</h3>
+        <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">En Arecofix reparamos celulares de forma segura, rapida y transparente.</p>
+        <div class="flex flex-wrap items-center justify-center gap-6 p-4">
+          <div class="flex min-w-72 max-w-[336px] flex-1 flex-col gap-0.5">
+            <div class="flex items-center p-1 justify-between">
+              <button>
+                <div class="text-white flex size-10 items-center justify-center" data-icon="CaretLeft" data-size="18px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z"></path>
+                  </svg>
+                </div>
+              </button>
+              <p class="text-white text-base font-bold leading-tight flex-1 text-center">Julio 2025</p>
+              <button>
+                <div class="text-white flex size-10 items-center justify-center" data-icon="CaretRight" data-size="18px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+            <div class="grid grid-cols-7">
+              <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">S</p>
+              <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">M</p>
+              <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">T</p>
+              <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">W</p>
+              <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">T</p>
+              <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">F</p>
+              <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">S</p>
+              <button class="h-12 w-full text-white col-start-4 text-sm font-medium leading-normal">
+                <div class="flex size-full items-center justify-center rounded-full">1</div>
+              </button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">2</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">3</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">4</div></button>
+              <button class="h-12 w-full text-[#131620] text-sm font-medium leading-normal">
+                <div class="flex size-full items-center justify-center rounded-full bg-[#7b92df]">5</div>
+              </button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">6</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">7</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">8</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">9</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">10</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">11</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">12</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">13</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">14</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">15</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">16</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">17</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">18</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">19</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">20</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">21</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">22</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">23</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">24</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">25</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">26</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">27</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">28</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">29</div></button>
+              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">30</div></button>
+            </div>
+            <button
+            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#7b92df] text-[#131620] text-sm font-bold leading-normal tracking-[0.015em]"
+          >
+            <span class="truncate">Pedir una Cotizacion</span>
+          </button>
+          </div>
+        </div>
+
+        <div class="flex w-full grow bg-[#131620] @container p-4">
+          <div class="w-full gap-1 overflow-hidden bg-[#131620] @[480px]:gap-2 aspect-[3/2] rounded-xl flex">
+            <div
+              class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none flex-1"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB3ummBj3dAS1X5To9BvR0LmOvKw4PXVvHxrAPcLwop0FgmthKhF666JqHh4pwPRSKp_zjcw-CFwy_xJNYsTdP_Zt8LzXqJxp2ska5ij8xxPbcN0OaQhfs7ZMtpOSEe6SA0AmKEIT2ZD7hcRonwU5ismCEpNoIMcNmarlIk8_fi6dGHOOtq9N41E2vxghDljOmlx3BcL2DxdWzMAb0aNfIMbBt-SY--S7K8aO89qGwogMRXLcUVorgtQ0XNhWMxs6RrNlYT2SpEDvc");'
+            ></div>
+          </div>
+        </div>
+        <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Desarrollo de Software</h3>
+        <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">Creamos aplicaciones web y moviles a medida para tu negocio.</p>
+        <div class="flex px-4 py-3 justify-end">
+          <button
+            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#7b92df] text-[#131620] text-sm font-bold leading-normal tracking-[0.015em]"
+          >
+            <span class="truncate">Ver Servicios</span>
+          </button>
+        </div>
+        <div class="flex flex-col gap-8 overflow-x-hidden bg-[#131620] p-4">
+          <div class="flex flex-col gap-3 bg-[#131620]">
+            <div class="flex items-center gap-3">
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBHtntiIGnWvvIVXO4X2eN6RwhPW7fxYENhQTS5LzQ3vGFpsAE4TVpSCeeRDHwCwmK2XiV8bx1znXXIvkMm449Qkhjrowx6OfeEdHQlhXoXe5tbCpysCXJJZ_S-UYopXUA4CXgC948JOtbjQlgxAumSPq7b904X2xqXr2mapgvSuK3AxaJkwjge9Hlx_zSwASW_BTYKuEq5x9dOuoGjFVSrkZoILKe1Tk_Ze27rdr7Z1bnIwqsLX2WDdlXye2tCRhtjgI2DfcaoJeg");'
+              ></div>
+              <div class="flex-1">
+                <p class="text-white text-base font-medium leading-normal">Patricia Ponce</p>
+                <p class="text-[#9aa3c1] text-sm font-normal leading-normal">Hace 2 Semanas</p>
+              </div>
+            </div>
+            <div class="flex gap-0.5">
+              <div class="text-[#7b92df]" data-icon="Star" data-size="20px" data-weight="fill">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="text-[#7b92df]" data-icon="Star" data-size="20px" data-weight="fill">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="text-[#7b92df]" data-icon="Star" data-size="20px" data-weight="fill">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="text-[#7b92df]" data-icon="Star" data-size="20px" data-weight="fill">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="text-[#7b92df]" data-icon="Star" data-size="20px" data-weight="fill">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <p class="text-white text-base font-normal leading-normal">Excelente Servicio y la mejor calidad de repuestos.</p>
+            <div class="flex gap-9 text-[#9aa3c1]">
+              <button class="flex items-center gap-2">
+                <div class="text-inherit" data-icon="ThumbsUp" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M234,80.12A24,24,0,0,0,216,72H160V56a40,40,0,0,0-40-40,8,8,0,0,0-7.16,4.42L75.06,96H32a16,16,0,0,0-16,16v88a16,16,0,0,0,16,16H204a24,24,0,0,0,23.82-21l12-96A24,24,0,0,0,234,80.12ZM32,112H72v88H32ZM223.94,97l-12,96a8,8,0,0,1-7.94,7H88V105.89l36.71-73.43A24,24,0,0,1,144,56V80a8,8,0,0,0,8,8h64a8,8,0,0,1,7.94,9Z"
+                    ></path>
+                  </svg>
+                </div>
+                <p class="text-inherit">3</p>
+              </button>
+              <button class="flex items-center gap-2">
+                <div class="text-inherit" data-icon="ThumbsDown" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M239.82,157l-12-96A24,24,0,0,0,204,40H32A16,16,0,0,0,16,56v88a16,16,0,0,0,16,16H75.06l37.78,75.58A8,8,0,0,0,120,240a40,40,0,0,0,40-40V184h56a24,24,0,0,0,23.82-27ZM72,144H32V56H72Zm150,21.29a7.88,7.88,0,0,1-6,2.71H152a8,8,0,0,0-8,8v24a24,24,0,0,1-19.29,23.54L88,150.11V56H204a8,8,0,0,1,7.94,7l12,96A7.87,7.87,0,0,1,222,165.29Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+          <div class="flex flex-col gap-3 bg-[#131620]">
+            <div class="flex items-center gap-3">
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBJdx_ibks1cr9zwLoSstfMjuFIWvD5W_wOgE7hoYQ2VQuUz7OCd6gQsRk1fM2wzkz3pPyS7gPVz0gfpcnjD1c0v722n3wIx8TvRw88uqVWuG3hZo4PODZt0X4olSxVtm_8k3COWR1zosNXNlkjs5qzWoV2nt7rYhax59UvQCyNp3USreMvZlB3PVMSVshIUuU0afRz59E1disjCoBclr_OiQjJgayDMN3A0grSIovmZqPIdGKgUu208lqjXPS5E7LknshH_FSM1Qo");'
+              ></div>
+              <div class="flex-1">
+                <p class="text-white text-base font-medium leading-normal">:Alberto Ferreyra</p>
+                <p class="text-[#9aa3c1] text-sm font-normal leading-normal">Hace 1 mes</p>
+              </div>
+            </div>
+            <div class="flex gap-0.5">
+              <div class="text-[#7b92df]" data-icon="Star" data-size="20px" data-weight="fill">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="text-[#7b92df]" data-icon="Star" data-size="20px" data-weight="fill">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="text-[#7b92df]" data-icon="Star" data-size="20px" data-weight="fill">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="text-[#7b92df]" data-icon="Star" data-size="20px" data-weight="fill">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="text-[#7b92df]" data-icon="Star" data-size="20px" data-weight="fill">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M234.5,114.38l-45.1,39.36,13.51,58.6a16,16,0,0,1-23.84,17.34l-51.11-31-51,31a16,16,0,0,1-23.84-17.34L66.61,153.8,21.5,114.38a16,16,0,0,1,9.11-28.06l59.46-5.15,23.21-55.36a15.95,15.95,0,0,1,29.44,0h0L166,81.17l59.44,5.15a16,16,0,0,1,9.11,28.06Z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <p class="text-white text-base font-normal leading-normal">
+              La verdad exelente trabajo ,responsable muy educado y sobre todo muy honesto Gracias Ezequiel !!!!!
+            </p>
+            <div class="flex gap-9 text-[#9aa3c1]">
+              <button class="flex items-center gap-2">
+                <div class="text-inherit" data-icon="ThumbsUp" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M234,80.12A24,24,0,0,0,216,72H160V56a40,40,0,0,0-40-40,8,8,0,0,0-7.16,4.42L75.06,96H32a16,16,0,0,0-16,16v88a16,16,0,0,0,16,16H204a24,24,0,0,0,23.82-21l12-96A24,24,0,0,0,234,80.12ZM32,112H72v88H32ZM223.94,97l-12,96a8,8,0,0,1-7.94,7H88V105.89l36.71-73.43A24,24,0,0,1,144,56V80a8,8,0,0,0,8,8h64a8,8,0,0,1,7.94,9Z"
+                    ></path>
+                  </svg>
+                </div>
+                <p class="text-inherit">2</p>
+              </button>
+              <button class="flex items-center gap-2">
+                <div class="text-inherit" data-icon="ThumbsDown" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M239.82,157l-12-96A24,24,0,0,0,204,40H32A16,16,0,0,0,16,56v88a16,16,0,0,0,16,16H75.06l37.78,75.58A8,8,0,0,0,120,240a40,40,0,0,0,40-40V184h56a24,24,0,0,0,23.82-27ZM72,144H32V56H72Zm150,21.29a7.88,7.88,0,0,1-6,2.71H152a8,8,0,0,0-8,8v24a24,24,0,0,1-19.29,23.54L88,150.11V56H204a8,8,0,0,1,7.94,7l12,96A7.87,7.87,0,0,1,222,165.29Z"
+                    ></path>
+                  </svg>
+                </div>
+                <p class="text-inherit">1</p>
+              </button>
+            </div>
+          </div>
+        </div>
+        <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Nuestros Patrocinadores</h3>
+        <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+          <div class="flex items-stretch p-4 gap-3">
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD8ZR2fVprbwEa0W5YhHkgmTZzT6SJH-KIc8Jgtea7zqGNBHa8LbhZ2klL4xl54ncFUV82I46hF4VViLxfEtsGkAWp_9tW_0VcSTYi10KOrOMUMNj_Helv9L2okbeiI51UYCK_vJ-4MY3rcGg_3qShHdTcXJJ25cvUWKzTJshzI2ml4hmhCOBrU-XNBH-MXC18pMgo3_ci4rLvfV_XVFxYTRYBx3__99L9TZnb_f13DZxk6b94eqtvP-TKX-ym50S5DMimU03SzrQE");'
+              ></div>
+              <div>
+                <p class="text-white text-base font-medium leading-normal">TechCorp</p>
+                <p class="text-[#9aa3c1] text-sm font-normal leading-normal">Leading tech provider</p>
+              </div>
+            </div>
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB7fCn5_6AVXPCKmPKN9jqdoQuPvZ0VBAmvW9KN5Shc6uZmJk0OtnNNM8fnY8h6Hq1MpU5gXbQd0U6eDHa3nvVtIVMftbypMl-cf0h7QFhhTSn59StHLlBwsDwnFsEtcSXAePHWN29xLE-DXoysb0J3cvI8XuuhFc5wxqbhm_BcUxJY4geGoqJbedUlVIhmdt6Jdp_KAH8WBFflIbj2_3stpMo9TewgBH3R4MivojRwqKyi2pBR8HCLVRQ5y6vtRHwYHq7b7IN57f8");'
+              ></div>
+              <div>
+                <p class="text-white text-base font-medium leading-normal">Innovate Solutions</p>
+                <p class="text-[#9aa3c1] text-sm font-normal leading-normal">Innovative solutions</p>
+              </div>
+            </div>
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCDjaMQJs6lTyRrKEsu9SBx19k7gt_1_Kl7XzswGh3TbPOBX-mwBKid8JGSlErbISBy61JeYbSCH2KOv2srNr8YSRt5EVtc2pouZExlyHC6F91EjuVLmOedTXMU1wwGE4B9nb8Q2E6t8iCzmg5xouJr56qtN0bvwtUtG6eiDroXT1CAiE-TSOgsFJctgnCBaGqQXq2CnKtdJTsbSjv3CyLb09hfF1HIZAuzlivu3GNSRjf4Endz936LwZg-ckdhTuyK6ehEJqPNewI");'
+              ></div>
+              <div>
+                <p class="text-white text-base font-medium leading-normal">Future Gadgets</p>
+                <p class="text-[#9aa3c1] text-sm font-normal leading-normal">Future-forward gadgets</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">No te pierdas Nuestras Ofertas</h3>
+        <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+          <label class="flex flex-col min-w-40 flex-1">
+            <input
+              placeholder="Tu Direccion de Email"
+              class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-white focus:outline-0 focus:ring-0 border-none bg-[#292f42] focus:border-none h-14 placeholder:text-[#9aa3c1] p-4 text-base font-normal leading-normal"
+              value=""
+            />
+          </label>
+        </div>
+        <div class="flex px-4 py-3 justify-end">
+          <button
+            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#7b92df] text-[#131620] text-sm font-bold leading-normal tracking-[0.015em]"
+          >
+            <span class="truncate">Suscribirme</span>
+          </button>
+        </div>
+        <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
+          <div class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
+            <a class="text-[#9aa3c1] text-base font-normal leading-normal min-w-40" href="#">Sobre Nosotros</a>
+            <a class="text-[#9aa3c1] text-base font-normal leading-normal min-w-40" href="#">Contacto</a>
+            <a class="text-[#9aa3c1] text-base font-normal leading-normal min-w-40" href="#">Politicas de privacidad</a>
+          </div>
+          <div class="flex flex-wrap justify-center gap-4">
+            <a href="https://github.com/arecofix">
+              <div class="text-[#9aa3c1]" data-icon="GitLogo" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path d="M128,12A116,116,0,0,0,12,128c0,50.53,32.79,93.39,78.23,108.57,5.72,1.05,7.83-2.47,7.83-5.49,0-2.7-.11-11.13-.16-20.2-31.82,6.91-38.55-13.66-38.55-13.66-5.19-13.18-12.66-16.69-12.66-16.69-10.37-7.1.78-6.96.78-6.96,11.47.82,17.5,11.78,17.5,11.78,10.18,17.44,26.71,12.41,33.27,9.47,1.03-7.37,3.99-12.41,7.26-15.26-25.39-2.89-52.14-12.71-52.14-56.58,0-12.49,4.47-22.71,11.78-30.71-1.19-2.89-5.1-14.53,1.12-30.27,0,0,9.6-3.07,31.42,11.71a108.7,108.7,0,0,1,57.08,0c21.79-14.79,31.36-11.71,31.36-11.71,6.24,15.74,2.31,27.38,1.12,30.27,7.34,7.99,11.77,18.22,11.77,30.71,0,43.94-26.81,53.64-52.31,56.47,4.1,3.54,7.76,10.51,7.76,21.18,0,15.28-.14,27.6-.14,31.36,0,3.05,2.08,6.59,7.86,5.49C211.24,221.39,244,178.53,244,128A116,116,0,0,0,128,12Z"></path>
+                </svg>
+              </div>
+            </a>
+            <a href="https://instagram.com/arecofix">
+              <div class="text-[#9aa3c1]" data-icon="InstagramLogo" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"
+                  ></path>
+                </svg>
+              </div>
+            </a>
+            <a href="https://facebook.com/arecofix">
+              <div class="text-[#9aa3c1]" data-icon="FacebookLogo" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"
+                  ></path>
+                </svg>
+              </div>
+            </a>
+          </div>
+          <a href="https://arecofix.com.ar/portfolio" class="text-[#9aa3c1] text-base font-normal leading-normal">
+          @2025 Arecofix
+          </a>
+
+        </footer>
+      </div>
+      <div>
+        <div class="flex gap-2 border-t border-[#292f42] bg-[#1d212f] px-4 pb-3 pt-2">
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 rounded-full text-white" href="#">
+            <div class="text-white flex h-8 items-center justify-center" data-icon="House" data-size="24px" data-weight="fill">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M224,115.55V208a16,16,0,0,1-16,16H168a16,16,0,0,1-16-16V168a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8v40a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V115.55a16,16,0,0,1,5.17-11.78l80-75.48.11-.11a16,16,0,0,1,21.53,0,1.14,1.14,0,0,0,.11.11l80,75.48A16,16,0,0,1,224,115.55Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-white text-xs font-medium leading-normal tracking-[0.015em]">Inicio</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9aa3c1]" href="#">
+            <div class="text-[#9aa3c1] flex h-8 items-center justify-center" data-icon="ListBullets" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M80,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H88A8,8,0,0,1,80,64Zm136,56H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,64H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16ZM44,52A12,12,0,1,0,56,64,12,12,0,0,0,44,52Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,116Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,180Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#9aa3c1] text-xs font-medium leading-normal tracking-[0.015em]">Categorias</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9aa3c1]" href="#">
+            <div class="text-[#9aa3c1] flex h-8 items-center justify-center" data-icon="ShoppingCart" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M222.14,58.87A8,8,0,0,0,216,56H54.68L49.79,29.14A16,16,0,0,0,34.05,16H16a8,8,0,0,0,0,16h18L59.56,172.29a24,24,0,0,0,5.33,11.27,28,28,0,1,0,44.4,8.44h45.42A27.75,27.75,0,0,0,152,204a28,28,0,1,0,28-28H83.17a8,8,0,0,1-7.87-6.57L72.13,152h116a24,24,0,0,0,23.61-19.71l12.16-66.86A8,8,0,0,0,222.14,58.87ZM96,204a12,12,0,1,1-12-12A12,12,0,0,1,96,204Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,192,204Zm4-74.57A8,8,0,0,1,188.1,136H69.22L57.59,72H206.41Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#9aa3c1] text-xs font-medium leading-normal tracking-[0.015em]">Carrito</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9aa3c1]" href="#">
+            <div class="text-[#9aa3c1] flex h-8 items-center justify-center" data-icon="User" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#9aa3c1] text-xs font-medium leading-normal tracking-[0.015em]">Perfil</p>
+          </a>
+        </div>
+        <div class="h-5 bg-[#1d212f]"></div>
+      </div>
+    </div>
+  </body>
+</html>
