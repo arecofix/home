@@ -1,0 +1,164 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#121621] dark justify-between group/design-root overflow-x-hidden"
+      style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'
+    >
+      <div>
+        <div class="flex items-center bg-[#121621] p-4 pb-2 justify-between">
+          <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pl-12">Shop</h2>
+          <div class="flex w-12 items-center justify-end">
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 bg-transparent text-white gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0"
+            >
+              <div class="text-white" data-icon="ShoppingBag" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM176,88a48,48,0,0,1-96,0,8,8,0,0,1,16,0,32,32,0,0,0,64,0,8,8,0,0,1,16,0Z"
+                  ></path>
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="px-4 py-3">
+          <label class="flex flex-col min-w-40 h-12 w-full">
+            <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+              <div
+                class="text-[#97a1c4] flex border-none bg-[#272e45] items-center justify-center pl-4 rounded-l-lg border-r-0"
+                data-icon="MagnifyingGlass"
+                data-size="24px"
+                data-weight="regular"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+                </svg>
+              </div>
+              <input
+                placeholder="Search"
+                class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-white focus:outline-0 focus:ring-0 border-none bg-[#272e45] focus:border-none h-full placeholder:text-[#97a1c4] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                value=""
+              />
+            </div>
+          </label>
+        </div>
+        <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Featured</h2>
+        <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+          <div class="flex items-stretch p-4 gap-3">
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex flex-col"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBtj2RfXPvO75MiO1-7QsjWo69m1qJnVhSny9CuCnc673hjIM5FNPdxzayIuMHYEZLkp21ZcTyKPjpr7-_dyFx_WjK39pJgerQArpudMdX2bMa9s_yrem9pGGFCinL0vBWaQmENCrEh5vR5_do4mzlW-lWnMweHtwXJiHYCXUUphK9pBGtYEeUPXmAW-t2O8bWIQbVWGB06d0YLGdUXRh5GWfjmkRmAP4uL0Tvutu3oOp8RK3jouOGxOt2_JSnNuTtQjRDduddv76ph");'
+              ></div>
+              <div>
+                <p class="text-white text-base font-medium leading-normal">Modern Living Room</p>
+                <p class="text-[#97a1c4] text-sm font-normal leading-normal">Explore our curated collection</p>
+              </div>
+            </div>
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex flex-col"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC_d__jCjJsoeObpI0wwLLpmKLJ_dy9WCrM4f6t-BzESFp3IWMY3QI2qtgqvAM5QRD5NzvKPSesPWOz1IIWR47x6tVzMbaZ_NUNFpeNvGwcTfeg4JRtQhryucWHtcq7D24UlaVY4UAJyyGbfbR6jrlJkahlwofrOH5ZQ55-wQx7Ju5se6SoOx9rtocMb3MvQ4iElWK07AiUHJ4OEtsCMl5aPkKR2I7dDE9VDu1WAnSkQcVzen0t1NhR9d54WrnZ7cxhMoqFEztV1-g9");'
+              ></div>
+              <div>
+                <p class="text-white text-base font-medium leading-normal">Cozy Bedroom</p>
+                <p class="text-[#97a1c4] text-sm font-normal leading-normal">Find your perfect sleep sanctuary</p>
+              </div>
+            </div>
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg flex flex-col"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB1yN9fFaDeNE2sDRi8RFogZ5QFZ1abBYwNwmIKJ9ntqYGrux2NeaUMxzhkORZGwIZ0eg5vrcPf53Ea5Qb9UW89uSoNHoIK-mMHOuKoqX65NgeHE7Uk-rFCEHhka1A_c8-4l8TfP8gQO1ow5ovxu4sBn0mP3kHvO7QYUGHkzNqkqOn5NdrbetAhhCau2Ibps9pAT8cTv4GhxVhfw_071Yn1xWfOTG6GB5Fbnd6Es8wHcCYRiBIw8YUwmhDznaCAOi_ZnlT3UPk4lGgR");'
+              ></div>
+              <div>
+                <p class="text-white text-base font-medium leading-normal">Minimalist Kitchen</p>
+                <p class="text-[#97a1c4] text-sm font-normal leading-normal">Simplify your cooking space</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Promotions</h2>
+        <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+          <div class="flex flex-col gap-3 pb-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC4FAoTt619R8vmS-CI2Fr0KdkZrOooN6rxklfDOWebo159oMn0Uj0QbfInOj5BN9_iM1eoncQkjrDJ0CF1mIbhyXvrZt7u8ju8QPfxBlykCRhloWXTAf-xa76_sTSg7FSq3pM2HGvJe96qHaXV7Si40Hv1thjyNnf0IK7qyOYx3r0lGxUZUw1qWrtFE6AA8nGhe44cer_gLZLciUU6_fFI0EB7i8Y4P43riPQTEkf_3ixZOUooSqG4uiEJZaTEG7-gIg9gCXjQ6JwB");'
+            ></div>
+            <p class="text-white text-base font-medium leading-normal">Summer Sale</p>
+          </div>
+          <div class="flex flex-col gap-3 pb-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAUUfps60kG1gF81x7FuIfcOxUzA0tOiwuukS4acInzjvbLxZTkxKQ7PAIzHdyRXn9d2_eg4Ad7WHMtj8FWqRpuyenH2xtjU_zgv0-J9IcPGty82DPk5sg7xuq_pPuo3UFL_b7qdoU3850xgPxIQl2og4d-FSIdOVa17RGJid0vVKBlJ2psi5mIRNdaUduslEIGXkQG01fQkuboktoe3IckIYCglhKXz_-Ww2lgHu3sn8pRXKHld9ljVHo4j8aUSEBrqXzrcvyuyrmG");'
+            ></div>
+            <p class="text-white text-base font-medium leading-normal">New Arrivals</p>
+          </div>
+          <div class="flex flex-col gap-3 pb-3">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB7cdKLDHtkqgbswPUJpsPhwzgYGalbOlam6dvrlkkRqwMTGVPclBSNxZ_6YfH90ZtGWswwmGC4H2Y8yUnuav2kiEwXMfWQ8JpcHtU446Zp0zylDfNz42NekdRkWqzOEqKt2xHR0zi5pChIgQcTROMVdIhNXki9PieHSwBG2CRqNIytk78pzGPWqyE04WgLRO81V2dvcNudOTLfRPRwjiGBjvmnZ0LiJggc3qyh2p1Nat8SW2YTv_NIqcBAMKfIcOSOOEJAPb44MDuL");'
+            ></div>
+            <p class="text-white text-base font-medium leading-normal">Clearance</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="flex gap-2 border-t border-[#272e45] bg-[#1c2131] px-4 pb-3 pt-2">
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 rounded-full text-white" href="#">
+            <div class="text-white flex h-8 items-center justify-center" data-icon="House" data-size="24px" data-weight="fill">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M224,115.55V208a16,16,0,0,1-16,16H168a16,16,0,0,1-16-16V168a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8v40a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V115.55a16,16,0,0,1,5.17-11.78l80-75.48.11-.11a16,16,0,0,1,21.53,0,1.14,1.14,0,0,0,.11.11l80,75.48A16,16,0,0,1,224,115.55Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-white text-xs font-medium leading-normal tracking-[0.015em]">Home</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#97a1c4]" href="#">
+            <div class="text-[#97a1c4] flex h-8 items-center justify-center" data-icon="MagnifyingGlass" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+              </svg>
+            </div>
+            <p class="text-[#97a1c4] text-xs font-medium leading-normal tracking-[0.015em]">Shop</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#97a1c4]" href="#">
+            <div class="text-[#97a1c4] flex h-8 items-center justify-center" data-icon="ShoppingBag" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM176,88a48,48,0,0,1-96,0,8,8,0,0,1,16,0,32,32,0,0,0,64,0,8,8,0,0,1,16,0Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#97a1c4] text-xs font-medium leading-normal tracking-[0.015em]">Cart</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#97a1c4]" href="#">
+            <div class="text-[#97a1c4] flex h-8 items-center justify-center" data-icon="User" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#97a1c4] text-xs font-medium leading-normal tracking-[0.015em]">Profile</p>
+          </a>
+        </div>
+        <div class="h-5 bg-[#1c2131]"></div>
+      </div>
+    </div>
+  </body>
+</html>
