@@ -28,33 +28,63 @@
   </head>
   <body>
     <div
-      class="relative flex size-full min-h-screen flex-col bg-[#131620] dark justify-between group/design-root overflow-x-hidden"
-      style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'
-    >
-      <div>
-        <div class="flex items-center bg-[#131620] p-4 pb-2 justify-between">
-          <div class="text-white flex size-12 shrink-0 items-center" data-icon="List" data-size="24px" data-weight="regular">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-              <path
-                d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"
-              ></path>
-            </svg>
-          </div>
-          <img src="assets/logo (1).png" alt="" style="width: 10em; height: 3em; vertical-align: middle;">
+  class="relative flex size-full min-h-screen flex-col bg-[#131620] dark justify-between group/design-root overflow-x-hidden"
+  style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'
+>
+<div>
+  <div class="flex items-center bg-[#131620] p-4 pb-2 justify-between">
+    <!-- Contenedor del menú hamburguesa -->
+    <div class="relative">
+      <!-- Botón del menú hamburguesa -->
+      <button id="menuButton" class="text-white flex size-12 shrink-0 items-center cursor-pointer focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+          <path
+            d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"
+          ></path>
+        </svg>
+      </button>
+      
+      <!-- Menú desplegable -->
+      <div id="dropdownMenu" class="hidden absolute left-0 mt-2 w-48 bg-[#1e2130] rounded-md shadow-lg z-50 border border-[#2d3246]">
+        <div class="py-1">
+          <a href="#" class="block px-4 py-2 text-white hover:bg-[#2d3246] transition-colors duration-200">Celulares</a>
+          <a href="#" class="block px-4 py-2 text-white hover:bg-[#2d3246] transition-colors duration-200">Repuestos</a>
+          <a href="#" class="block px-4 py-2 text-white hover:bg-[#2d3246] transition-colors duration-200">Accesorios</a>
+        </div>
+      </div>
+    </div>
+
+          <img src="assets/img/logo (1).png" alt="" style="width: 10em; height: 3em; vertical-align: middle;">
           <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">Servicio Tecnico Multimarca</h2>
-          <div class="flex w-12 items-center justify-end">
-            <button
-              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 bg-transparent text-white gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0"
-            >
-              <div class="text-white" data-icon="ShoppingCart" data-size="24px" data-weight="regular">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                  <path
-                    d="M222.14,58.87A8,8,0,0,0,216,56H54.68L49.79,29.14A16,16,0,0,0,34.05,16H16a8,8,0,0,0,0,16h18L59.56,172.29a24,24,0,0,0,5.33,11.27,28,28,0,1,0,44.4,8.44h45.42A27.75,27.75,0,0,0,152,204a28,28,0,1,0,28-28H83.17a8,8,0,0,1-7.87-6.57L72.13,152h116a24,24,0,0,0,23.61-19.71l12.16-66.86A8,8,0,0,0,222.14,58.87ZM96,204a12,12,0,1,1-12-12A12,12,0,0,1,96,204Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,192,204Zm4-74.57A8,8,0,0,1,188.1,136H69.22L57.59,72H206.41Z"
-                  ></path>
-                </svg>
-              </div>
-            </button>
-          </div>
+          <!-- Botón del carrito (tu código actual) -->
+<div class="flex w-12 items-center justify-end">
+  <button id="cart-button" class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 bg-transparent text-white gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0">
+    <div class="text-white relative">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+        <path d="M222.14,58.87A8,8,0,0,0,216,56H54.68L49.79,29.14A16,16,0,0,0,34.05,16H16a8,8,0,0,0,0,16h18L59.56,172.29a24,24,0,0,0,5.33,11.27,28,28,0,1,0,44.4,8.44h45.42A27.75,27.75,0,0,0,152,204a28,28,0,1,0,28-28H83.17a8,8,0,0,1-7.87-6.57L72.13,152h116a24,24,0,0,0,23.61-19.71l12.16-66.86A8,8,0,0,0,222.14,58.87ZM96,204a12,12,0,1,1-12-12A12,12,0,0,1,96,204Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,192,204Zm4-74.57A8,8,0,0,1,188.1,136H69.22L57.59,72H206.41Z"></path>
+      </svg>
+      <span id="cart-count" class="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center hidden">0</span>
+    </div>
+  </button>
+</div>
+
+<!-- Contenedor del carrito (añadir esto) -->
+<div id="cart-container" class="hidden fixed top-16 right-4 bg-[#292f42] text-white p-4 rounded-lg shadow-lg z-50 w-80">
+  <h3 class="text-lg font-bold mb-4">Tu Carrito</h3>
+  <div id="cart-items" class="max-h-60 overflow-y-auto mb-4">
+    <!-- Los items del carrito aparecerán aquí -->
+    <p id="empty-cart-message" class="text-center py-4">El carrito está vacío</p>
+  </div>
+  <div class="border-t border-gray-600 pt-3">
+    <div class="flex justify-between font-bold mb-3">
+      <span>Total:</span>
+      <span id="cart-total">$0.00</span>
+    </div>
+    <button id="checkout-button" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded disabled:opacity-50" disabled>
+      Finalizar Compra
+    </button>
+  </div>
+</div>
         </div>
         <div class="px-4 py-3">
           <label class="flex flex-col min-w-40 h-12 w-full">
@@ -115,10 +145,14 @@
                   <p class="text-[#97a2c3] text-sm font-normal leading-normal">Lo ultimo de Samsung | $799 | Celulares</p>
                 </div>
                 <button
-                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#272e44] text-white text-sm font-bold leading-normal tracking-[0.015em]"
-                >
-                  <span class="truncate">Agregar al Carrito</span>
-                </button>
+                class="add-to-cart-btn flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#272e44] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+                data-id="Samsung Galaxy S23"
+                data-name="Galaxy S23"
+                data-price="799"
+                data-image="https://lh3.googleusercontent.com/...imagen.jpg"
+              >
+                <span class="btn-text">Agregar al Carrito</span>
+              </button>
               </div>
             </div>
             <div class="flex h-full flex-1 flex-col gap-4 rounded-xl bg-[#1c2131] shadow-[0_0_4px_rgba(0,0,0,0.1)] min-w-60">
@@ -132,10 +166,14 @@
                   <p class="text-[#97a2c3] text-sm font-normal leading-normal">Apple Nuevo en Caja | $999 | Celulares</p>
                 </div>
                 <button
-                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#272e44] text-white text-sm font-bold leading-normal tracking-[0.015em]"
-                >
-                  <span class="truncate">Agregar al Carrito</span>
-                </button>
+                class="add-to-cart-btn flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#272e44] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+                data-id="iphone-14-pro"
+                data-name="iPhone 14 Pro"
+                data-price="999"
+                data-image="https://lh3.googleusercontent.com/...imagen.jpg"
+              >
+                <span class="btn-text">Agregar al Carrito</span>
+              </button>
               </div>
             </div>
             <div class="flex h-full flex-1 flex-col gap-4 rounded-xl bg-[#1c2131] shadow-[0_0_4px_rgba(0,0,0,0.1)] min-w-60">
@@ -149,9 +187,14 @@
                   <p class="text-[#97a2c3] text-sm font-normal leading-normal">Celular de Google con la mejor camara | $599 | Celulares</p>
                 </div>
                 <button
-                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#272e44] text-white text-sm font-bold leading-normal tracking-[0.015em]"
-                >
-                  <span class="truncate">Agregar al Carrito</span>
+                class="add-to-cart-btn flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#272e44] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+                data-id="Pixel 7"
+                data-name="Pixel 7"
+                data-price="599"
+                data-image="https://lh3.googleusercontent.com/...imagen.jpg"
+              >
+                <span class="btn-text">Agregar al Carrito</span>
+              </button>
               </div>
             </div>
           </div>
@@ -550,5 +593,6 @@
         <div class="h-5 bg-[#1d212f]"></div>
       </div>
     </div>
+    <script src="js/menu.js" defer></script>
   </body>
 </html>
