@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const message = `¡Hola! Quiero reservar una cita para el ${formattedDate} a las ${state.selectedTime} horas. Por favor, envíenme más información.`;
         const encodedMessage = encodeURIComponent(message);
         
-        window.open(`https://wa.me/${whatsappNumber}?text=${encodedMessage}`, '_blank');
+        window.open(`https://wa.me/${541125960900}?text=${encodedMessage}`, '_blank');
     }
     
     // Iniciar la aplicación
