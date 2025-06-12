@@ -81,6 +81,9 @@
           <a href="https://arecofix.com.ar/resources/tienda.html" class="block px-4 py-2 text-white hover:bg-[#2d3246] transition-colors duration-200">Celulares</a>
           <a href="https://arecofix.com.ar/resources/tienda.html" class="block px-4 py-2 text-white hover:bg-[#2d3246] transition-colors duration-200">Repuestos</a>
           <a href="https://arecofix.com.ar/resources/tienda.html" class="block px-4 py-2 text-white hover:bg-[#2d3246] transition-colors duration-200">Accesorios</a>
+          <a href="https://arecofix.com.ar/resources/servicios" class="block px-4 py-2 text-white hover:bg-[#2d3246] transition-colors duration-200">Servicios</a>
+          <a href="https://arecofix.com.ar/resources/resources/contact" class="block px-4 py-2 text-white hover:bg-[#2d3246] transition-colors duration-200">Contacto</a>
+          <a href="https://arecofix.com.ar/resources/resources/about-us" class="block px-4 py-2 text-white hover:bg-[#2d3246] transition-colors duration-200">¿Quienes somos?</a>
         </div>
       </div>
     </div>
@@ -242,78 +245,64 @@
             ></div>
           </div>
         </div>
+        
+    
+    <div class="max-w-md mx-auto my-8">
         <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Agenda una cita para reparar tu Dispositivo</h3>
-        <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">En Arecofix reparamos celulares de forma segura, rapida y transparente.</p>
-        <div class="flex flex-wrap items-center justify-center gap-6 p-4">
-          <div class="flex min-w-72 max-w-[336px] flex-1 flex-col gap-0.5">
-            <div class="flex items-center p-1 justify-between">
-              <button>
-                <div class="text-white flex size-10 items-center justify-center" data-icon="CaretLeft" data-size="18px" data-weight="regular">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
-                    <path d="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z"></path>
-                  </svg>
+        <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">En Arecofix reparamos celulares de forma segura, rápida y transparente.</p>
+        <div class="flex flex-wrap items-center justify-center gap-6 p-4 bg-gray-800 rounded-lg">
+            <div class="flex min-w-72 max-w-[336px] flex-1 flex-col gap-0.5">
+                <!-- Controles del mes -->
+                <div class="flex items-center p-1 justify-between">
+                    <button id="prev-month" class="p-2 rounded-full hover:bg-gray-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256" class="text-white">
+                            <path d="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z"></path>
+                        </svg>
+                    </button>
+                    <p id="current-month" class="text-white text-base font-bold leading-tight flex-1 text-center">Julio 2025</p>
+                    <button id="next-month" class="p-2 rounded-full hover:bg-gray-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256" class="text-white">
+                            <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path>
+                        </svg>
+                    </button>
                 </div>
-              </button>
-              <p class="text-white text-base font-bold leading-tight flex-1 text-center">Julio 2025</p>
-              <button>
-                <div class="text-white flex size-10 items-center justify-center" data-icon="CaretRight" data-size="18px" data-weight="regular">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
-                    <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path>
-                  </svg>
-                </div>
-              </button>
-            </div>
-            <div class="grid grid-cols-7">
-              <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">S</p>
-              <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">M</p>
-              <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">T</p>
-              <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">W</p>
-              <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">T</p>
-              <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">F</p>
-              <p class="text-white text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">S</p>
-              <button class="h-12 w-full text-white col-start-4 text-sm font-medium leading-normal">
-                <div class="flex size-full items-center justify-center rounded-full">1</div>
-              </button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">2</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">3</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">4</div></button>
-              <button class="h-12 w-full text-[#131620] text-sm font-medium leading-normal">
-                <div class="flex size-full items-center justify-center rounded-full bg-[#7b92df]">5</div>
-              </button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">6</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">7</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">8</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">9</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">10</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">11</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">12</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">13</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">14</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">15</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">16</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">17</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">18</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">19</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">20</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">21</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">22</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">23</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">24</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">25</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">26</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">27</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">28</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">29</div></button>
-              <button class="h-12 w-full text-white text-sm font-medium leading-normal"><div class="flex size-full items-center justify-center rounded-full">30</div></button>
-            </div>
-            <button
-            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#7b92df] text-[#131620] text-sm font-bold leading-normal tracking-[0.015em]"
-          >
-            <span class="truncate">Pedir una Cotizacion</span>
-          </button>
-          </div>
-        </div>
 
+                <!-- Días de la semana -->
+                <div class="grid grid-cols-7 mb-2">
+                    <p class="text-white text-[13px] font-bold text-center py-2">D</p>
+                    <p class="text-white text-[13px] font-bold text-center py-2">L</p>
+                    <p class="text-white text-[13px] font-bold text-center py-2">M</p>
+                    <p class="text-white text-[13px] font-bold text-center py-2">M</p>
+                    <p class="text-white text-[13px] font-bold text-center py-2">J</p>
+                    <p class="text-white text-[13px] font-bold text-center py-2">V</p>
+                    <p class="text-white text-[13px] font-bold text-center py-2">S</p>
+                </div>
+
+                <!-- Días del calendario -->
+                <div class="grid grid-cols-7 gap-1" id="calendar-days"></div>
+
+                <!-- Selección de hora (oculto inicialmente) -->
+                <div id="time-selection" class="mt-6 hidden">
+                    <p class="text-white text-base font-bold mb-2">Selecciona una hora:</p>
+                    <div class="grid grid-cols-3 gap-2" id="time-slots"></div>
+                </div>
+
+                <!-- Información seleccionada -->
+                <div id="selected-info" class="mt-4 p-3 bg-gray-700 rounded-lg hidden">
+                    <p class="text-white"><span class="font-bold">Fecha seleccionada:</span> <span id="selected-date-text"></span></p>
+                    <p class="text-white"><span class="font-bold">Hora seleccionada:</span> <span id="selected-time-text"></span></p>
+                </div>
+
+                <!-- Botón de cotización -->
+                <button id="request-quote" class="w-full mt-6 py-2 px-4 bg-[#7b92df] hover:bg-[#6a80d0] text-[#131620] font-bold rounded-full disabled:opacity-50 disabled:cursor-not-allowed">
+                    Pedir una Cotización
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/calendar.js"></script>
+        
         <div class="flex w-full grow bg-[#131620] @container p-4">
           <div class="w-full gap-1 overflow-hidden bg-[#131620] @[480px]:gap-2 aspect-[3/2] rounded-xl flex">
             <div
@@ -325,11 +314,13 @@
         <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Desarrollo de Software</h3>
         <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">Creamos aplicaciones web y moviles a medida para tu negocio.</p>
         <div class="flex px-4 py-3 justify-end">
-          <button
-            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#7b92df] text-[#131620] text-sm font-bold leading-normal tracking-[0.015em]"
-          >
-            <span class="truncate">Ver Servicios</span>
-          </button>
+          <a href="https://arecofix.com.ar/servicios" class="inline-block">
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#7b92df] text-[#131620] text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Ver Servicios</span>
+            </button>
+          </a>
         </div>
         <div class="flex flex-col gap-8 overflow-x-hidden bg-[#131620] p-4">
           <div class="flex flex-col gap-3 bg-[#131620]">
@@ -410,7 +401,7 @@
                 style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBJdx_ibks1cr9zwLoSstfMjuFIWvD5W_wOgE7hoYQ2VQuUz7OCd6gQsRk1fM2wzkz3pPyS7gPVz0gfpcnjD1c0v722n3wIx8TvRw88uqVWuG3hZo4PODZt0X4olSxVtm_8k3COWR1zosNXNlkjs5qzWoV2nt7rYhax59UvQCyNp3USreMvZlB3PVMSVshIUuU0afRz59E1disjCoBclr_OiQjJgayDMN3A0grSIovmZqPIdGKgUu208lqjXPS5E7LknshH_FSM1Qo");'
               ></div>
               <div class="flex-1">
-                <p class="text-white text-base font-medium leading-normal">:Alberto Ferreyra</p>
+                <p class="text-white text-base font-medium leading-normal">Alberto Ferreyra</p>
                 <p class="text-[#9aa3c1] text-sm font-normal leading-normal">Hace 1 mes</p>
               </div>
             </div>
@@ -599,7 +590,7 @@
             </div>
             <p class="text-[#9aa3c1] text-xs font-medium leading-normal tracking-[0.015em]">Categorias</p>
           </a>
-          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9aa3c1]" href="#">
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9aa3c1]" href="https://arecofix.com.ar/resources/tienda">
             <div class="text-[#9aa3c1] flex h-8 items-center justify-center" data-icon="ShoppingCart" data-size="24px" data-weight="regular">
               <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
                 <path
@@ -609,7 +600,7 @@
             </div>
             <p class="text-[#9aa3c1] text-xs font-medium leading-normal tracking-[0.015em]">Carrito</p>
           </a>
-          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9aa3c1]" href="#">
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9aa3c1]" href="https://arecofix.com.ar/resources/cart">
             <div class="text-[#9aa3c1] flex h-8 items-center justify-center" data-icon="User" data-size="24px" data-weight="regular">
               <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
                 <path
