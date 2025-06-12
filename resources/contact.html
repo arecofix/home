@@ -40,6 +40,17 @@
   </style>
 </head>
 <body class="bg-gray-50" style='font-family: Inter, "Noto Sans", sans-serif;'>
+  <!-- En tu index.html -->
+<div id="whatsapp-button-container"></div>
+
+<script>
+    // Cargar el botón de WhatsApp
+    fetch('w.html')
+        .then(response => response.text())
+        .then(html => {
+            document.getElementById('whatsapp-button-container').innerHTML = html;
+        });
+</script>
   <div class="min-h-screen flex flex-col">
     <!-- Header -->
     <header class="bg-white shadow-sm sticky top-0 z-10">
