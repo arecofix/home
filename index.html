@@ -12,7 +12,7 @@
     <meta property="og:image" content="https://arecofix.com.ar/favicon.png">
     <meta property="og:url" content="https://arecofix.com.ar">
     <meta property="og:type" content="website">
-    <link rel="icon" type="image/png" href="https://arecofix.com.ar/favicon.png">
+    <link rel="icon" type="image/png" href="assets/img/logo (2).png">
     <link
       rel="stylesheet"
       as="style"
@@ -36,35 +36,23 @@
     </script>
   </head>
   <body>
-<<<<<<< HEAD
-
-    <!-- En tu index.html -->
-<div id="whatsapp-button-container"></div>
-
-<script>
-    // Cargar el botón de WhatsApp
-    fetch('w.html')
-        .then(response => response.text())
-        .then(html => {
-            document.getElementById('whatsapp-button-container').innerHTML = html;
-        });
-</script>
-
-=======
-      <!-- Botón de WhatsApp flotante -->
-  <a href="https://wa.me/5491125960900" 
-     target="_blank" 
-     class="fixed bottom-5 right-5 bg-green-500 hover:bg-green-600 text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg transition-transform hover:scale-110"
-     title="Chatear por WhatsApp">
-
-    <img src="assets/img/w.png" 
-         alt="WhatsApp" 
-         class="w-7 h-7">
->>>>>>> 3c1b7a7ec1a3da7e9f067df77706fc9249b1d430
     <div
   class="relative flex size-full min-h-screen flex-col bg-[#131620] dark justify-between group/design-root overflow-x-hidden"
   style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'
 >
+
+  <!-- En tu index.html -->
+  <div id="whatsapp-button-container"></div>
+
+  <script>
+      // Cargar el botón de WhatsApp
+      fetch('resources/w.html')
+          .then(response => response.text())
+          .then(html => {
+              document.getElementById('whatsapp-button-container').innerHTML = html;
+          });
+  </script>
+
 <div>
   <div class="flex items-center bg-[#131620] p-4 pb-2 justify-between">
     <!-- Contenedor del menú hamburguesa -->
