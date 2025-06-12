@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <!-- Configuración básica y codificación -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <!-- Metadatos SEO -->
     <meta name="description" content="Arecofix ofrece soluciones informáticas y tecnología avanzada para negocios y empresas. Contáctanos para soporte técnico y desarrollo web.">
     <meta name="keywords" content="soluciones informáticas, tecnología, desarrollo web, soporte técnico, Arecofix">
     <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Redes Sociales -->
     <meta property="og:title" content="Arecofix - Soluciones Informáticas y Tecnología">
     <meta property="og:description" content="Descubre nuestras soluciones tecnológicas para potenciar tu negocio.">
     <meta property="og:image" content="https://arecofix.com.ar/favicon.png">
     <meta property="og:url" content="https://arecofix.com.ar">
     <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Arecofix">
+    
+    <!-- Favicon y touch icons -->
     <link rel="icon" type="image/png" href="assets/img/logo (2).png">
-    <link
-      rel="stylesheet"
-      as="style"
-      onload="this.rel='stylesheet'"
-      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
-      />
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/apple-touch-icon-144x144.png">
+    
+    <!-- Preconexión y fuentes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="stylesheet" as="style" onload="this.rel='stylesheet'" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800">
 
     <title>Arecofix - Soluciones Informaticas</title>
-    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
     <link rel="stylesheet" href="styles.css">
 
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <!-- Google tag (gtag.js) -->
+    
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-N7DQDV8MED"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-N7DQDV8MED');
     </script>
   </head>
@@ -69,9 +78,9 @@
       <!-- Menú desplegable -->
       <div id="dropdownMenu" class="hidden absolute left-0 mt-2 w-48 bg-[#1e2130] rounded-md shadow-lg z-50 border border-[#2d3246]">
         <div class="py-1">
-          <a href="#" class="block px-4 py-2 text-white hover:bg-[#2d3246] transition-colors duration-200">Celulares</a>
-          <a href="#" class="block px-4 py-2 text-white hover:bg-[#2d3246] transition-colors duration-200">Repuestos</a>
-          <a href="#" class="block px-4 py-2 text-white hover:bg-[#2d3246] transition-colors duration-200">Accesorios</a>
+          <a href="https://arecofix.com.ar/resources/tienda.html" class="block px-4 py-2 text-white hover:bg-[#2d3246] transition-colors duration-200">Celulares</a>
+          <a href="https://arecofix.com.ar/resources/tienda.html" class="block px-4 py-2 text-white hover:bg-[#2d3246] transition-colors duration-200">Repuestos</a>
+          <a href="https://arecofix.com.ar/resources/tienda.html" class="block px-4 py-2 text-white hover:bg-[#2d3246] transition-colors duration-200">Accesorios</a>
         </div>
       </div>
     </div>
@@ -145,11 +154,10 @@
                   Explora nuestra coleccion de Telefonos Celulares, accesorios, Repuestos y mas!
                 </h2>
               </div>
-              <button
-                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#7b92df] text-[#131620] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
-              >
+              <a href="https://arecofix.com.ar/resources/tienda.html" 
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#7b92df] text-[#131620] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]">
                 <span class="truncate">Ir a la Tienda</span>
-              </button>
+              </a>
             </div>
           </div>
         </div>
